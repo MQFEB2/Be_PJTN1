@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "01d398e6-cac7-4d9e-a9b6-1cdcd648dcbe",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Folder",
+			"item": [
+				{
+					"name": "New Request",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/rp/body/0af94ce3-a8a9-4ea9-a5cc-771e0f0df115",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"rp",
+								"body",
+								"0af94ce3-a8a9-4ea9-a5cc-771e0f0df115"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/rp/body/0af94ce3-a8a9-4ea9-a5cc-771e0f0df115",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"path": [
+										"rp",
+										"body",
+										"0af94ce3-a8a9-4ea9-a5cc-771e0f0df115"
+									]
+								}
+							},
+							"status": "200",
+							"code": "OK",
+							"_postman_previewlanguage": "json",
+							"header": "",
+							"body": "{\n  \"id\": 10,\n  \"name\": \"Leanne Graham\",\n  \"username\": \"Bret\",\n  \"email\": \"Sincere@april.biz\",\n  \"address\": {\n    \"street\": \"Kulas Light\",\n    \"suite\": \"Apt. 556\",\n    \"city\": \"Gwenborough\",\n    \"zipcode\": \"92998-3874\",\n    \"geo\": {\n      \"lat\": \"-37.3159\",\n      \"lng\": \"81.1496\"\n    }\n  },\n  \"phone\": \"1-770-736-8031 x56442\",\n  \"website\": \"hildegard.org\",\n  \"company\": {\n    \"name\": \"Romaguera-Crona\",\n    \"catchPhrase\": \"Multi-layered client-server neural-net\",\n    \"bs\": \"harness real-time e-markets\"\n  }\n}"
+						},
+						{
+							"name": "New Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/rp/body/41c345c0-3fe2-4725-9ed0-a943ae8dc4fa",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"path": [
+										"rp",
+										"body",
+										"41c345c0-3fe2-4725-9ed0-a943ae8dc4fa"
+									]
+								}
+							},
+							"status": "200",
+							"code": "OK",
+							"_postman_previewlanguage": "json",
+							"header": "",
+							"body": ""
+						},
+						{
+							"name": "New Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/rp/body/9ede0ff0-d135-49cb-902b-6ffb166962e3",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"path": [
+										"rp",
+										"body",
+										"9ede0ff0-d135-49cb-902b-6ffb166962e3"
+									]
+								}
+							},
+							"status": "200",
+							"code": "OK",
+							"_postman_previewlanguage": "json",
+							"header": "",
+							"body": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}
